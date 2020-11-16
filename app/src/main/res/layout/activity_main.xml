@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/roll_button"
+        android:id="@+id/sumarRonda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toTopOf="@+id/comienzo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/roll_button"
+        app:layout_constraintTop_toBottomOf="@+id/sumarRonda"
         app:layout_constraintVertical_bias="0.406" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
